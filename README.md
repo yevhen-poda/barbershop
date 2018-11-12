@@ -1,0 +1,2 @@
+# barbershop
+Static website
