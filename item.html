@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Barbershop Borodinski</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<div class="container clearfix">
+			<nav class="main-navigation">
+				<a class="logo-inner" href="index.html">
+					<img src="img/inner-logo.png" alt="Barbershop Borodinski">
+				</a>
+				<ul>
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="price-list.html">Прайс-лист</a></li>
+					<li class="active"><span>Магазин</span></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login" href="#">Вход</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="inner-page-title">
+			<h1>Набор для путешествий &laquo;Baxter of California&raquo;</h1>
+			<ul class="breadcrumbs">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="shop.html">Магазин</a></li>
+				<li><a href="shop.html">Средства для ухода</a></li>
+				<li class="current">Набор для путешествий &laquo;Baxter of California&raquo;</li>
+			</ul>
+		</div>
+		<div class="inner-content-item clearfix">
+			<section class="gallery-item">
+				<div class="gallery-big">
+					<img src="img/baxter-1.jpg" alt="" width="460px" height="498px">
+				</div>
+				<div class="gallery-small">
+					<img src="img/baxter-2.jpg" alt="" width="140px" height="149px">
+					<img src="img/baxter-3.jpg" alt="" width="140px" height="149px">
+					<img src="img/baxter-4.jpg" alt="" width="140px" height="149px">
+				</div>
+			</section>
+			<section class="goods-item">
+				<div class="existence-article clearfix">
+					<div class="existence-of-goods">
+						Есть в наличии
+					</div>
+					<div class="article">
+						Артикул: Dexter-AE
+					</div>
+				</div>
+				<div class="description-of-goods">
+					<p>
+						Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно
+						для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для
+						бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+					</p>
+				</div>
+				<div class="price-block">
+					<span>2 900 руб.</span>
+					<a class="btn" href="#">Купить</a>
+				</div>
+				<div class="complete-set">
+					<h2>В набор входят:</h2>
+					<ul class="items">
+						<li>Средство для умывания (50 мл)</li>
+						<li>Увлажняющий крем (50 мл)</li>
+						<li>Крем для бритья (50 мл)</li>
+						<li>Крем после бритья, шампунь (50 мл)</li>
+						<li>Удобная кожаная косметичка</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<section class="footer-contacts">
+				Барбуршоп &laquo;Бородинский&raquo; <br>
+				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 <br>
+				<a href="#">Как нас найти?</a> <br>
+				Телефон: +7 (812) 666-02-66
+			</section>
+			<section class="footer-social">
+				<p>
+					Давайте дружить!
+				</p>
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+				<a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">
+				<p>
+					Разработано:
+				</p>
+				<a href="#" class="btn">Yevhen Poda</a>
+			</section>
+		</div>
+	</footer>
+
+	<div class="modal-content">
+		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+		<h2 class="modal-content-title">Личный кабинет</h2>
+		<p>
+			Введите свой логин и пароль.
+		</p>
+		<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+			<input class="icon-user" type="text" name="login" placeholder="Логин">
+			<input class="icon-password" type="password" name="password" placeholder="Пароль">
+			<label class="login-checkbox">
+				<input type="checkbox" name="remember">
+				<span class="checkbox-indicator"></span>
+				Запомните меня
+			</label>
+			<a class="restore" href="#">Я забыл пароль!</a>
+			<button class="btn" type="submit">Войти</button>
+		</form>
+	</div>
+	<div class="modal-overlay"></div>
+
+	<script src="js/popup.js"></script>
+	<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
